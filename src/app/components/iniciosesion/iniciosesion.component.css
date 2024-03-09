@@ -1,0 +1,29 @@
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  line-height: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  width: 300px; /* Ancho deseado */
+  height: 200px; /* Alto deseado */
+  text-align: center; /* Alinea el contenido al centro */
+  line-height: 200px; /* Alinea verticalmente el contenido */
+}
+
+.iniciar{
+  background-color: #067B8A;
+  color: white;
+}
+
+.mt-5{
+  margin-top: 9rem !important;
+}
+
+.mt-4rem{
+  margin-top: 4rem !important;
+}
