@@ -1,0 +1,40 @@
+<div class="container-fluid" >
+    <div class="row">
+      <div class="col">
+        <a routerLink="/">
+          <img
+            src="../../../assets/images/logohome.png"
+            width="109.08"
+            height="85"
+          />
+        </a>
+      </div>
+      <div class="col-auto mt-5">
+        <h1>ALARMA DE APUESTAS DEPORTIVAS</h1>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row" style="margin-top:6rem">
+      <div class="col justify-content-md-center">
+          <div class="mt">
+            <button type="submit" class="btn boton" (click)="usuarios()" >Administrar Usuarios</button>
+          </div>
+          <div class="mt">
+            <button type="submit" class="btn boton" (click)="aplicaciones()">Administrar Aplicaciones</button>
+          </div>
+      </div>
+      <div class="col-auto"></div>
+      <div class="col justify-content-md-center mt2">
+        <p>Bienvenido a la interfaz de administración de la mejor aplicación de apuestas que existe.</p>
+        <p>En esta interfaz se podrá realizar la administración de los usuarios y también la administración de las aplicaciones.</p>
+        <p>Por favor recuerde cerrar la sesión al finalizar.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div>
+      <div class="pie">
+        <button type="submit" class="btn boton" (click)="cerrasesion()" >Cerrar sesion</button>
+      </div>
+    </div>
+  </footer>

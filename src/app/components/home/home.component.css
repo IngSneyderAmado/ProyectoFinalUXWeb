@@ -1,0 +1,33 @@
+.boton{
+    background-color: #067B8A;
+    color: white;
+    width: 18rem;
+    font-size: 1.5rem;
+  }
+  
+  .mt-5{
+    margin-top: 9rem !important;
+  }
+  
+  .mt{
+    margin-top: 3rem;
+    margin-left: 25%;
+    font-size: 2rem;
+  }
+  
+  .mt2{
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin: 1;
+  }
+  
+  .pie{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
