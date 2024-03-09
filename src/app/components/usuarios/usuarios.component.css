@@ -1,0 +1,50 @@
+.boton{
+  background-color: #067B8A;
+  color: white;
+  width: 12rem;
+  font-size: 1rem;
+}
+.mt-5{
+  margin-top: 9rem !important;
+}
+
+
+.homeico {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+}
+
+
+.pie{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.arrow {
+background-color: white;
+border: none;
+}
+
+.switch {
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center;
+}
+
+.form-check-input:checked {
+  background-color: #067B8A;
+  border-color: #067B8A;
+}
